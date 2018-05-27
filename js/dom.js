@@ -5,7 +5,7 @@
 
 const name = 'Playboi Carti'; 
 
-const infoText = ' i fixed the issue with the const key word. I will teach show you.' 
+const infoText = 'I fixed the issue with the const key word. I will show you.' 
 
 var x = document.getElementById("title");
 x.innerHTML = name;
