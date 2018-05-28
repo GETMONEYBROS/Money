@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+    .message {
+        font-size: 22px;
+    }
+
+    .titleHeader{
+        font-weight: bold;
+    }
+
+    p {
+        color: red;
+    }
+
+    .playboi-carti {
+        width: 320px;
+        height: auto;
+    }
+
+    </style>
+
+</head>
+<body>
+<div class="message">
+    This is called Dyanamic HTML when you make JavaScript write to the page from another 'src' file.
+</div>
+
+    <div>
+        <h1 id="title" class="titleHeader"></h1>
+        <p id="info"></p>
+    </div>
+
+    <div>
+        <img src="images/playboi-carti.jpg" class="playboi-carti">
+        <!--this is another way to write javascript to the page (however this is not good practice-->
+        <script> document.write('<br> this brotha is UGLY!') </script>
+    </div>
+
+
+    <!-- this script needs to run at the bottom of the page before the before the closing 'body'tag NOT in the 'head' area-->
+    <script src="js/dom.js"></script>
+</body>
+</html>
