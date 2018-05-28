@@ -11,17 +11,18 @@
  // no space or hyphen
  // case sensitive
 
- let firstName; = 'Playboi';
+//let firstName; = 'Playboi';
  let lastName = 'Carti';
 
 
 
  const interestRate = 0.3;
- interestRate = 1;
- console.log(interestrate);
+ //cant recall after const
+//interestRate = 1;
+ console.log(interestRate);
 
 
- let name = 'Playboi Carti'; // String Literal
+ //let name = 'Playboi Carti b'; // String Literal
  let age = 20; // Number Literal
  let isApproved = false; // Boolean Literal
  let firstName = undefined;
@@ -37,7 +38,7 @@
  person.name = 'east';
 
  // Bracket Notation
- LET SELECTION = 'name';
+ let selection = 'name';
  person['selection'] = 'ATL';
  console.log(person.name);
 
@@ -58,7 +59,7 @@ function square(number) {
     return numbner * number;
 }
 
-let number = ;
+let number = 
 console.log(square(2));
 
 
