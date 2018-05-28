@@ -37,22 +37,35 @@
 
 
  let person = {
-     name: 'Playboi Carti',
+     name: 'Young Nudy',
      age: 20
  };
 
  // Dot Notation
- person.name = 'east';
+ //person.name = 'east';
+console.log (person.name);
 
- // Bracket Notation
+let car = {
+    name: 'Lambo',
+    color: 'red'
+};
+
+console.log (car.name);
+
+car.name = 'Maserati'; //this is prototyping, copying over original value of 'Lambo'
+
+console.log (car.name);
+
+
+// Bracket Notation  //need to finih this code
 let selection = 'name';
  person['selection'] = 'ATL';
- console.log(person.name);
 
 
 
- let selectedColors = ['red', 'blue'];
- selectedColors[2] = 1;
+ let selectedColors = ['red', 'blue','yellow','green','good gas pack og']; 
+//show me how to get the actual value
+ //selectedColors[2] = 1;
  console.log(selectedColors.length); //DAD Notes:  check the spelling of your variable. you should check to see if your getting the correct results. if your not then there is and issue. dont just commit code that does not work.
 
  
