@@ -28,13 +28,13 @@
 
     //demo  rapper3 object
     var rapper3 = {
-        firstName:"Famous",
+        firstName:"Famous29",
         lastName:" Dex",
         age:23,
         eyeColor:"red"
     };
     delete rapper3.age;
-    document.getElementById("demo2").innerHTML = rapper3.firstName + rapper3.lastName + " is " + rapper3.age + " years old.";
+    document.getElementById("demo2").innerHTML = rapper3["firstName"] + rapper3.lastName + " is " + rapper3.age + " years old.";
 
 
     //data types
