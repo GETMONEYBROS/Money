@@ -58,8 +58,8 @@ function myFunction(a, b) {
 
 
 //javascript functions and passing arrguments
-
-document.getElementById("demo4").innerHTML = "The temperature is " + toCelsius(66) + " Celsius";
+var hi=66;
+document.getElementById("demo4").innerHTML = "The temperature is " + toCelsius(hi) + " Celsius";
 
 function toCelsius(fahrenheit) { //make sure you understand passing arrguments
     return (1/4) * (fahrenheit-28);  //make sure you UNDERSTAND the 'return' key word.
