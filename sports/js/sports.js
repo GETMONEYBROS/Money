@@ -15,7 +15,7 @@ var equipmentPrices = {
 
 //printing keys
 console.log(Object.keys(sports));
-console.log(Object.keys(equipmentPrices));
+console.log(Object.keys(equipmentPrices)[0]);
 
 //sportsEquipment array
 var sportsEquipment = ["helmet", "shoudler pads", "gloves"];
