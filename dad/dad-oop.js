@@ -60,6 +60,8 @@ const beverlyHills = new House(15, 'green', 'mantion', 'beverly hills', 'ca');
 const portlandNW= new House(152, 'white', 'apartment', 'portland', 'or');
 
 /*
+prototyping is VERY POWERFUL in javaScript.
+
 note: we are gonna learn how to use the 'prototype' keyword to update and object and constructor function.
 things to know about prototypes YOU CAN NOT update a property outside of the constructor function.
 BUT you can on a regular object literal. 
