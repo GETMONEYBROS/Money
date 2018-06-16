@@ -17,27 +17,27 @@
 foo('BMW'); 
 
 function foo(x){
-    return document.getElementById('bug2').innerHtML= x;
-}
+    return document.getElementById('bug2').innerHTML = x;
+};
 
 //no hints
 const car = {
     sportCar: "Ford Mustang",
     truck: "GMC",
     electric: "Telsa"
-}
+};
 
-document.getElementById('bug3').innerHTML= car.bomb;
+document.getElementById('bug3').innerHTML = car.truck;
 
 //no hints
 const pets = ['dog', 'monkey', 'cat'];
-document.getElementById('bug4').innerHTML= 'There are '  pets.length + ' items in the array. But I only have a ' + pets[2];
+document.getElementById('bug4').innerHTML = 'There are ' + pets.length + " " + 'items in the array. But I only have a ' + pets[2] + ".";
 
 //no hints
 const names = ["Bob", "Jim", "Vanity", "Mina", "Rita", "Mason"];
 let text = "";
 let i;
-for (i = 0; i < names.length; i+) {
-    text += names[] + "<br>";
-}
+for (let i = 0; i<names.length; i++) {
+    text += names[5] + "<br>";
+};
 document.getElementById("bug5").innerHTML = text;

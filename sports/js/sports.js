@@ -15,6 +15,7 @@ var equipmentPrices = {
 
 //printing keys
 console.log(Object.keys(sports));
+document.getElementById("keys").innerHTML = Object.keys(sports);
 console.log(Object.keys(equipmentPrices)[0]);
 
 //sportsEquipment array
