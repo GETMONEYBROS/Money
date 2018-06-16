@@ -59,6 +59,17 @@ const friscoHills = new House(5, 'blue', 'trailer park', 'frisco', 'tx');
 const beverlyHills = new House(15, 'green', 'mantion', 'beverly hills', 'ca');
 const portlandNW= new House(152, 'white', 'apartment', 'portland', 'or');
 
+/*
+note: we are gonna learn how to use the 'prototype' keyword to update and object and constructor function.
+things to know about prototypes YOU CAN NOT update a property outside of the constructor function.
+BUT you can on a regular object literal. 
+HOWEVER YOU CAN add a 'method' to both of the object and constructor function ouside
+of the their '{}'.
+
+https://www.w3schools.com/js/js_object_prototypes.asp
+*/
+
+
 
 
 //how to make a self-invoking your function on load.
