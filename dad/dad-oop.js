@@ -1,5 +1,17 @@
 // OOP = object oriented programing
 
+
+/*
+notice i have two objects both named 'foo' and they BOTH have the same key:value pair.
+HOWEVER by using the 'this' keyword in the second object 'foo' i am able 
+to make sure that i ONLY grab the correct object value that i want that belongs
+to its own object 'foo'. This because of variable scoping to keep from overriding.
+*/
+var foo = { 
+    two: 'kitty'
+}
+
+
 //example 1 using 'this' keyword in method/function in objbect literal
 var foo = {
     one: 1,
@@ -9,7 +21,7 @@ var foo = {
         return document.getElementById('oop2').innerHTML = 29;
     },
     five: function(){
-        return document.getElementById('oop3').innerHTML = this.two;
+        return document.getElementById('oop3').innerHTML = this.two;  //the 'this' keyword grabs the value of whats in the MAIN parent object itself '{}' and nothing outside of it.
     }
 }
 
