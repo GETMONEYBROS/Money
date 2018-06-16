@@ -94,3 +94,11 @@ const myNumber = function(){
     return document.getElementById('oop6').innerHTML = 'i am anonymous function';
 }
 myNumber(); //this is how you call your anonymous function
+
+/*
+we are gonna learn about javascritpt 'closurs'.
+this is important to understand how to keep keep variables in closures so you dont override 
+variables on the global scope.
+
+so lets make sure we review the 'global scope'
+*/
