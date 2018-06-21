@@ -47,7 +47,7 @@ function foods(foods) {
 function petTemplate(pet) {
 return `
 <div class="animal">
-<img class="pet-photo" src="${pet.photo">
+<img class="pet-photo" src="${pet.photo}">
 <h2 class="pet-name">${pet.name} <span>(${pet.species})</span></h2>
 <p><strong>age:</strong> ${age(pet.birthYear)}</p>
 ${pet.favFoods ? foods(pet.favFoods) : ""}
