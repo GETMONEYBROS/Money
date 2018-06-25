@@ -50,13 +50,13 @@ function House(size, color, type, city, state){
     this.type = type,
     this.city = city,
     this.state = state
-    console.log( this.size + " " +  this.color + " " +  this.type + " " + ' i will by it for sale 5k in' +  this.city + " " + this.state);
+    console.log( this.size + " " +  this.color + " " +  this.type + " " + ' i will by it for sale 5k in' + " " +  this.city + " " + this.state);
 }
 
 //house(2, 'red', 'condo' );
 //notice the keyword 'new' this is how you make and 'instance' of the class/constructor function
 const friscoHills = new House(5, 'blue', 'trailer park', 'frisco', 'tx');
-const beverlyHills = new House(15, 'green', 'mantion', 'beverly hills', 'ca');
+const beverlyHills = new House(15, 'green', 'mansion', 'beverly hills', 'ca');
 const portlandNW= new House(152, 'white', 'apartment', 'portland', 'or');
 
 /*
@@ -71,6 +71,27 @@ of the their '{}'.
 https://www.w3schools.com/js/js_object_prototypes.asp
 */
 
+function Person(first, last, age, eye) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.eyeColor = eye;
+}
+Person.prototype.nationality = "English";
+Person.prototype.middlename = "Joe";
+Person.prototype.sex = "male";
+
+Person.prototype.bDay =function() {
+    return this.age;
+};
+    
+Person.prototype.eyeBalls =function() {
+    return this.eyeColor;
+};
+    
+var myFather = new Person("John", "Doe", 50, "blue");
+document.getElementById("demo").innerHTML =
+"My father is " + myFather.nationality + " "  + myFather.middlename + " " + myFather.sex + " " + myFather.bDay() + " " + myFather.eyeBalls();
 
 
 
@@ -84,9 +105,9 @@ jj(); //self-invoking
 
 //another way to self-invoking
 //all self-invoking function means it will invoke right way
-(function aj(){
-    return document.getElementById('oop5').innerHTML = 'hello world andre';
-})(); //notice the '()' invoke parentheses
+(function aj(x){
+    return document.getElementById('oop5').innerHTML = 'hello world andre' + x;
+})(29); //notice the '()' invoke parentheses
 
 
 //this is called anonymous function when the function is in a variable!
@@ -97,8 +118,9 @@ myNumber(); //this is how you call your anonymous function
 
 /*
 we are gonna learn about javascritpt 'closurs'.
-this is important to understand how to keep keep variables in closures so you dont override 
+this is important to understand how to keep variables in closures so you dont override 
 variables on the global scope.
 
 so lets make sure we review the 'global scope'
+https://www.w3schools.com/js/js_function_closures.asp
 */
