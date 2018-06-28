@@ -63,9 +63,7 @@ function foods(foods) {
     return `
     <h4>Favorite Foods</h4>
     <ul class="foods.list">
-    ${foods.map(function (food) {
-        return `<li>${food}</li>`
-    }).join("")}
+    ${foods.map( (food) => `<li>${food}</li>`).join("")}
     </ul>
 
     `

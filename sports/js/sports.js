@@ -1,4 +1,4 @@
-//sports object
+//sports object literal
 var sports = {
     football: "runningback",
     basketball: "pointGuard",
@@ -6,7 +6,7 @@ var sports = {
     baseball: "pitcher"
 };
 
-//equipmentPrices object
+//equipmentPrices object literal
 var equipmentPrices = {
     helmet: 20,
     shoudlerPads: 25,
