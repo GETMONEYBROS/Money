@@ -59,3 +59,10 @@ for (let n = 0; n<wifey.length; n++) {
     m += wifey[2] + "<br>";
 };
 document.getElementById("wife").innerHTML = m
+
+function Kenna(kenna, josiah, love){
+    this.kenna = "10/10",
+    this.josiah = "10/10",
+    this.love = "10/10"
+    console.log(this.kenna + this.josiah + this.love + "These are the ratings of Kenna and Josiah's looks and how compatible their love really is.")
+};
