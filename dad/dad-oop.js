@@ -124,3 +124,86 @@ variables on the global scope.
 so lets make sure we review the 'global scope'
 https://www.w3schools.com/js/js_function_closures.asp
 */
+
+function Shoes(size, color, brand){
+    this.size = size,
+    this.color = color,
+    this.brand = brand
+    this.myShoes = function(){
+    console.log(this.size + this.color + this.brand);
+    document.getElementById("nike").innerHTML = this.size + this.color + this.brand;
+    };
+};
+
+const nike = new Shoes(10, " red", " Nike");
+console.log( nike.myShoes());
+
+Shoes.prototype.country = "USA";
+console.log(nike.country);
+
+Shoes.prototype.factory = function(){
+    console.log("Made in China");
+};
+console.log(nike.factory());
+
+
+function josiah(){
+    return "";
+};
+
+
+var apple = function kenna(){
+    return "";
+};
+
+
+(function josiah2(){
+    return "";
+})();
+
+const josiah3 =() => {
+    return "";
+};
+
+//the 5 different way to print value to page.
+//document.getElementById("").innerHTML = ;
+//document.write();
+//alert();
+//return
+//console.log();
+
+//event listen example 1
+function testButton(){
+    alert("cali");
+};
+
+//event listen example 2
+document.getElementById("myBtn").addEventListener("click", function(){
+    document.getElementById("demo2").innerHTML = "Hello World Josiah";
+});
+
+//event listen example 3
+document.getElementById("myBtn1").addEventListener("click", boo);
+
+function boo() {
+    document.getElementById("demo3").innerHTML = "sleep";
+}
+
+//event listen example 4
+var p1 = 5;
+var p2 = 7;
+
+document.getElementById("myBtn2").addEventListener("click", function() {
+    myFunction(p1, p2);
+});
+
+function myFunction(a, b) {
+    var result = a * b;
+    document.getElementById("demo4").innerHTML = result;
+}
+
+//example 5 style colors
+//notice the "this" keyword.
+document.getElementById("myBtn3").addEventListener("click", function(){
+    this.style.backgroundColor = "red";
+});

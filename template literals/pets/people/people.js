@@ -55,33 +55,30 @@ const people = [
 ];
 
 function age(birthYear) {
-return new Date().getFullYear() - birthYear;
-        return `${calculatedAge} years old`
+    let calculatedAge  = new Date().getFullYear() - birthYear;
+    return `${calculatedAge} years old`;
 };
 
 function foods(foods) {
     return `
-    <h4>Favorite Foods</h4>
-    <ul class="foods.list">
-    ${foods.map( (food) => `<li>${food}</li>`).join("")}
-    </ul>
-
-    `
+        <h4>Favorite Foods</h4>
+        <ul class="foods.list">
+        ${foods.map( (food) => `<li>${food}</li>`).join("")}
+        </ul>
+`
 }
 
 function peopleTemplate(people) {
-return `
-<div class="persons">
-    <img class="people-photo" src="${people.photo}">
-    <h2 class="people-name">${people.name} <span>(${people.species})</span></h2>
-    <p><strong>age:</strong> ${age(people.birthYear)}</p>
-    ${people.favFoods ? foods(people.favFoods) : ""}
-    <p>${people.state}</p>
-</div>
+    return `
+        <div class="persons">
+            <img class="people-photo" src="${people.photo}">
+            <h2 class="people-name">${people.name} <span>(${people.species})</span></h2>
+            <p><strong>age:</strong> ${age(people.birthYear)}</p>
+            ${people.favFoods ? foods(people.favFoods) : ""}
+            <p>${people.state}</p>
+        </div>
  `
 }
-
-
 
 document.getElementById("app").innerHTML = `
 <h1 class="app-title">people (${people.length} results)</h1>
