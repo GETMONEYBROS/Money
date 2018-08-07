@@ -115,7 +115,6 @@ trucks1.sayName();
 
 
 
-
 function Book(name, year, author){
     this.name = name,
     this.year = year,
