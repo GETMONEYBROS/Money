@@ -1,0 +1,15 @@
+1. watch the video
+
+2. make sure the banner width div is the same width as the image size.
+
+3. in tablet and mobile make sure you adjust all of your images to become responisve by making the become "width: 100%" and "height: auto"
+
+4. make your 3 columns have width's for spacing. For example the middle column should be "width: 673px;" (thats the same size as the biggest image in that column) but the total of the 3 columns needs to add up to be width of your top banner and footer so figure out the math differences. 
+
+5. make your footer width the same size as the banner width to be even across the board. AND notice the spacing between the footer and border and the bottom of your computer screen once you scroll down.
+
+6. Hint: The get the banner size from dragging the banner image into your browser or right clicking on the image to view width and height.
+
+
+
+GOOD LUCK and may the fouce be with you!

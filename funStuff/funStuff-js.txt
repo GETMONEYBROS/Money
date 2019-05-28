@@ -1,0 +1,145 @@
+fun stuff for JJ to learn with javascript.
+
+
+
+****DOM ELEMENT TREE****
+https://www.w3schools.com/js/js_htmldom.asp
+
+**********************************
+
+https://www.w3schools.com/Jsref/met_win_settimeout.asp
+
+*********
+
+https://www.w3schools.com/jsref/prop_html_style.asp
+
+element.style.property = value
+
+element.style.borderBottom = "2px solid red";
+
+object.style.border
+
+document.getElementById("myH1").style.color = "red";
+
+**EVENTS***
+https://www.w3schools.com/jsref/event_onclick.asp
+
+object.addEventListener("click", myScript);
+
+*** JSON ****
+https://www.w3schools.com/js/js_json_intro.asp
+
+****CSS *****
+https://www.w3schools.com/css/default.asp
+
+<element onclick="myScript">
+
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onclick_addeventlistener
+
+object.addEventListener("click", myScript);
+
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onclick_copy
+
+***********************************
+<script>
+window.onclick = myFunction;
+
+function myFunction() {
+    document.getElementsByTagName("BODY")[0].style.backgroundColor = "yellow";
+}
+</script>
+
+
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onclick_dropdown
+
+-----------date -----------------
+https://www.w3schools.com/jsref/jsref_obj_date.asp
+
+https://www.w3schools.com/js/js_date_methods.asp
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
+
+https://www.w3schools.com/js/js_object_prototypes.asp
+
+https://css-tricks.com/understanding-javascript-constructors/
+
+https://www.digitalocean.com/community/tutorials/understanding-date-and-time-in-javascript
+
+---math---
+https://www.w3schools.com/jsref/jsref_sqrt.asp
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_sqrt
+
+https://www.w3schools.com/jsref/jsref_operators.asp
+
+https://www.w3schools.com/js/js_arithmetic.asp
+
+https://www.w3schools.com/js/js_assignment.asp
+
+https://www.w3schools.com/js/js_datatypes.asp
+
+********array methods ******
+https://www.w3schools.com/js/js_array_methods.asp
+
+***JSON****
+https://www.w3schools.com/js/js_json.asp
+
+*****valadation form *****
+https://www.w3schools.com/js/js_validation.asp
+
+https://www.w3schools.com/js/js_array_sort.asp
+https://www.w3schools.com/js/js_array_iteration.asp
+
+****AJAX ****
+https://www.w3schools.com/js/js_ajax_intro.asp
+
+**CSS***
+https://www.youtube.com/watch?v=qKoajPPWpmo&list=PLr6-GrHUlVf8JIgLcu3sHigvQjTw_aC9C
+
+***HTML ****
+https://www.youtube.com/watch?v=dD2EISBDjWM
+
+****HTM5 and CSS3 ****
+https://www.youtube.com/watch?v=LqvFIuVlyP8&list=PL41lfR-6DnOruqMacTfff1zrEcqtmm7Fv
+
+***ES6 ****
+https://www.youtube.com/watch?v=AfWYO8t7ed4
+
+https://www.youtube.com/watch?v=ZJZfIw3P8No&list=PL6gx4Cwl9DGBhgcpA8eTYYWg7im72LgLt
+
+https://www.youtube.com/watch?v=Jakoi0G8lBg
+
+https://www.youtube.com/watch?v=IEf1KAcK6A8
+
+***JR DEV NOTES ***
+https://www.youtube.com/watch?v=m6G8f9pZZRM
+
+
+https://www.facebook.com/vmilesrembert
+
+---booststrap---
+
+https://www.youtube.com/watch?v=L0uNai3XyKQ
+
+----media query---
+https://www.youtube.com/watch?v=2KL-z9A56SQ
+
+---jquery---
+https://www.youtube.com/watch?v=hMxGhHNOkCU
+
+--teach him if/else/!/!=/ ===/==/
+
+
+----------------------------------------
+show Josia what DNS is server is on his appache
+http:333.333.999 ips
+
+https://www.youtube.com/watch?v=D7jShYF5BWo
+
+DNS server****
+IP address and hostname and port and type.
+type= https
+IP = http://333.999
+host= www.wwt.com
+port: 80

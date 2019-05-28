@@ -1,0 +1,28 @@
+1. html and js hook up you got = A+
+
+2. conctect ID to js and dymamicly pass variblbe = B+
+
+3. object books = A-
+
+4. proint books A+
+
+5. print out year of book by subtraction = B+
+
+6. object.key = A+
+
+7. print out all values in object = A+
+
+8. array = A+
+
+9. he knows array slot count starts from ZERO = A+
+
+10. he knows how to print out the slot count of the array = A+
+
+11. he knows document.write = A+
+
+
+12. function invokes = D+
+
+13. funcion bascis = c-
+
+14. teach how to make a selfInvoke function IFFY
