@@ -48,7 +48,7 @@ var p = {
     x: 29,
     poop: function(){
         alert(x); //this is coming from the global scope variable x
-        return this.x; //this is coming from inside object literal local scope, NOT global scope by using keyword this.
+        return alert(this.x); //this is coming from inside object literal local scope, NOT global scope by using keyword this.
     }
 };
 console.log(p.poop());

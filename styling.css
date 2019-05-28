@@ -1,0 +1,60 @@
+/* Simple CSS Setup */
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background: black;
+    color:red;
+    font-family:Arial, Helvetica, sans-serif
+    text-align:center;
+}
+
+container {
+    background: white;
+    width:500px;
+    margin:20x auto;
+    padding:20x;
+}
+
+h1 {
+    margin: 0 0 20px;
+}
+
+p {
+    margin: 10 0px;
+}
+
+/* Styling Links */
+
+a:link {
+color:purple;
+text-decoration: none;
+}
+
+a:hover {
+color:orange;
+text-decoration: underline;
+}
+
+a:active {
+color:red;
+}
+
+/* Specific link styles */
+
+#link-3:hover {
+    background:cyan;
+    color:orange;
+    padding:5px;
+    text-decoration: none;
+}
+
+#link-1:hover {
+    background:red;
+    color:black;
+    padding:5px;
+    text-decoration: none;
+}

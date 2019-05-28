@@ -12,7 +12,7 @@ let house = {
 };
 
 document.write(rappers.drug);   
-console.log('young nudty is worth: ' + rappers.currency);
+console.log('young nudy is worth: ' + rappers.currency);
 console.log('money');
 console.log('lean');
 console.log('foreign cars');

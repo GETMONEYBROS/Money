@@ -1,0 +1,2 @@
+define(["require","exports"],function(i,o){"use strict";Object.defineProperty(o,"__esModule",{value:!0});var t=(function(){function i(){}return i.prototype.tooltipWillShow=function(i){this.visibleTooltip!==i&&(this.visibleTooltip&&this.visibleTooltip.close(),this.visibleTooltip=i)},i.prototype.tooltipWillClose=function(i){this.visibleTooltip===i&&(this.visibleTooltip=null)},i})();o.FacepileTooltipGroup=t});
+//# sourceMappingURL=facepile_tooltip_group.min.js-vflNpaqy4.map
