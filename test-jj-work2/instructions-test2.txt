@@ -8,8 +8,8 @@
 
 5. make your footer width the same size as the banner width to be even across the board. AND notice the spacing between the footer and border and the bottom of your computer screen once you scroll down.
 
-6. Hint: The get the banner size from dragging the banner image into your browser or right clicking on the image to view width and height.
+6. Hint: Get the banner size from dragging the banner image into your browser or right clicking on the image to view width and height.
 
 
 
-GOOD LUCK and may the fouce be with you!
+GOOD LUCK and may the force be with you!

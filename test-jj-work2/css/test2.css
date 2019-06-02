@@ -1,0 +1,101 @@
+* {
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    font-size: 1.0rem;
+}
+
+.navWrapper {
+    overflow: hidden;
+    background-color: #333;
+}
+  
+  .navWrapper a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navWrapper a:hover {
+    background-color: red;
+    color: black;
+  }
+  
+  .navWrapper a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.bannerWrapper {
+    width: 1288px;
+}
+
+.ebay {
+    width: 100%;
+    height: auto;
+}
+
+.threeColWrapper {
+    overflow: hidden;
+}
+
+.footer {
+    background-color: #333;
+    color: #f2f2f2;
+    width: 1288px;
+    height: 100px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.lSideBar {
+    float: left;
+    width: 303px;
+}
+
+.lSideBar ul li {
+    list-style: none;
+}
+
+.ePlus1 {
+    display: inline;
+}
+
+.mid {
+    float: left;
+    width: 655px;
+}
+
+.mid img {
+    width: 100%;
+    height: auto;
+}
+.rSideBar {
+    float: left;
+    width: 303px;
+}
+
+.rSideBar ul li {
+    list-style: none;
+}
+
+.scores {
+}
+
+.scoresImg {
+    margin-left: 294px;
+}
+
+@media screen and (max-width:767px) {
+    
+}
+
+@media screen and (min-width:768px) {
+    
+}
