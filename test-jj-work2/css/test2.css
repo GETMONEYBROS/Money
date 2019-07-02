@@ -6,6 +6,7 @@ box-sizing: border-box;
 
 body {
     font-size: 0.9rem;
+    background-color: #333;
 }
 
 .navWrapper {
@@ -33,7 +34,9 @@ body {
   }
 
 .bannerWrapper {
-    width: 1288px;
+    margin: auto;
+    padding: 10px 0 4px 0;
+    width: 95%;
 }
 
 .ebay {
@@ -42,19 +45,23 @@ body {
 }
 
 .threeColWrapper {
+    margin: auto;
+    width: 95%;
+    background-color: #fff;
     overflow: hidden;
 }
 
 .footer {
-    background-color: #333;
-    color: #f2f2f2;
+    padding-top: 40px;
     width: 100%;
     height: 100px;
+    background-color: #333;
+    color: #f2f2f2;
     text-align: center;
-    padding-top: 40px;
 }
 
 .lSideBar {
+    margin: 0 35px 0 35px;
     float: left;
     width: 303px;
 }
@@ -64,23 +71,67 @@ body {
     padding: 4.8px;
 }
 
-.mid {
-    float: left;
-    width: 655px;
+ul li.lSide1 {
+    list-style-image: url('../img/e-plus.jpg');
+    margin-left: 38px;
 }
 
-.mid img {
+ul li.lSide2 {
+    list-style-image: url('../img/e-plus.jpg');
+    margin-left: 38px;
+}
+
+ul li.lSide3 {
+    list-style-image: url('../img/fist.jpg');
+    margin-left: 38px;
+}
+
+ul li.lSide4 {
+    list-style-image: url('../img/baskeball.jpg');
+    margin-left: 38px;
+}
+
+ul li.lSide5 {
+    list-style-image: url('../img/soccer.jpg');
+    margin-left: 38px;
+}
+
+ul li.lSide6 {
+    list-style-image: url('../img/hocky.jpg');
+    margin-left: 38px;
+}
+
+ul li.lSide7 {
+    list-style-image: url('../img/watch-tv.jpg');
+    margin-left: 38px;
+}
+    
+.mid {
+    float: left;
+    width: 530px;
+}
+.batterMain {
+    width: 100%;
+}
+
+.batterMain img {
     width: 100%;
     height: auto;
 }
 .rSideBar {
+    margin: 0 35px 0 35px;
     float: left;
-    width: 303px;
+    width: 227px;
 }
 
 .rSideBar ul li {
     list-style: none;
     padding: 10px;
+}
+
+ul li.rSide7 {
+    list-style-image: url('../img/e-plus.jpg');
+    margin-left: 38px;
 }
 
 .scoresImg {
@@ -95,10 +146,218 @@ body {
     color: orangered;
 }
 
-@media screen and (max-width:767px) {
-    
+.bigCBold {
+    position: relative;
+    bottom: 30px;
 }
 
-@media screen and (min-width:768px) {
-    
+.scoresWrapper {
+    padding: 0 3px 0 3px;
+}
+
+.scores {
+    overflow: hidden;
+}
+
+.homeTeam {
+    padding: 0 2em 0 2em;
+}
+
+.awayTeam {
+    padding-left: 25px;
+}
+
+.homeTeamScore {
+    padding: 0 .5em 0 .5em;
+}
+
+.awayTeamScore {
+    padding: 0 .5em 0 .5em;
+}
+
+.homeTeam, .homeTeamImage, .homeTeamScore, .espnScoreCount, .awayTeamScore, .awayTeamImage, .awayTeam {
+    float: left;
+}
+
+.homeTeamName {
+    font-weight: bold;
+}
+
+.homeTeamRecord {
+    float: right;
+    font-size: 10px;
+}
+
+.homeTeamName, .homeTeamRecord {
+    display: block;
+}
+
+.homeTeamScore, .awayTeamScore {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.espnScoreCount {
+    display: block;
+}
+
+.espnTitle {
+    display: block;
+    text-transform: uppercase;
+    padding-left: 25px;
+}
+
+.bottomCount {
+    color: red;
+}
+
+.outCount {
+    color: #000;
+}
+
+.diamonds {
+    display: block;
+    padding-left: 25px;
+}
+
+.awayTeamName {
+    font-weight: bold;
+}
+
+.awayTeamRecord {
+    font-size: 10px;
+}
+
+.awayTeamName, .awayTeamRecord {
+    display: block;
+}
+
+.batter {
+    float: left;
+    padding-right: .5em;
+    padding-left: 1em;
+}
+
+/* .batter img {
+    width: 4.3%;
+    height: auto;
+}
+*/
+
+.batterInfo > span, .pitcherInfo > span {
+    display: block;
+    font-size: .8em;
+}
+
+.batterInfo > span:nth-child(1), .pitcherInfo > span:nth-child(1) {
+    color: grey;
+}
+
+.atBatWrapper {
+    overflow: hidden;
+    padding: 10px 0;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.atBat {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+    text-transform: uppercase; 
+}
+
+.batterBox {
+    overflow: hidden;
+    padding: 12px 0;
+}
+
+.pitcher {
+    float: left;
+    width: 5%;
+    padding-left: 1em;
+    padding-right: 2em;
+}
+
+.pitcherInfo {
+    border-right: 1px solid grey;    
+}
+
+.pitcherInfo, .batterInfo {
+    float: left;
+    width: 40%;
+}
+
+.bettsHeader, .bettsP {
+    display: block;
+}
+
+.videoWrapper {
+    padding-top: 10px;
+    overflow: hidden;
+    box-shadow: 4px 4px grey;
+}
+
+.diveVideo {
+    float: left;
+}
+
+.description {
+    float: left;
+    width: 50%;
+}
+
+.description > span {
+    padding: 5px;
+}
+
+.buttons {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.buttons > a{
+    display: block;
+    float: left;
+    margin-left: 10px;
+    padding: 0 35px 0 35px;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid blue;
+    width: 11em;
+    text-align: center;
+}
+
+.buttons > a:hover {
+    background-color: blue;
+    color: #fff;
+}
+
+@media screen and (max-width:767px) {
+    .ebay {
+        width: 100%;
+        height: auto;
+    }
+
+    .mid img {
+        width: 57.4%;
+        height: auto;
+    }
+
+    .scoresWrapper {
+        width: 58%;
+    }
+
+    .videoWrapper {
+        width: 92%;
+    }
+
+    .buttons {
+        width: 67%;
+    }
+
+    .buttons > a {
+        margin: 5px;
+    }
 }
