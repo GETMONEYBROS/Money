@@ -1,0 +1,9 @@
+https://www.naomiosaka.com/en/
+
+This site will be made in Boostrap.
+
+You will also need to know how how to write
+css hover effects.
+
+You will need to know how to write css z-index.
+
