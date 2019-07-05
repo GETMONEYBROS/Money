@@ -179,6 +179,14 @@ ul li.rSide7 {
     float: left;
 }
 
+.homeTeamImageMobile {
+    display: none;
+}
+
+.awayTeamImageMobile {
+    display: none;
+}
+
 .homeTeamName {
     font-weight: bold;
 }
@@ -237,12 +245,6 @@ ul li.rSide7 {
     padding-right: .5em;
     padding-left: 1em;
 }
-
-/* .batter img {
-    width: 4.3%;
-    height: auto;
-}
-*/
 
 .batterInfo > span, .pitcherInfo > span {
     display: block;
@@ -340,13 +342,18 @@ ul li.rSide7 {
         height: auto;
     }
 
+    .mid {
+        float: left;
+        width: 100%;
+    }
+
     .mid img {
-        width: 57.4%;
+        width: 100%;
         height: auto;
     }
 
     .scoresWrapper {
-        width: 58%;
+        width: 100%;
     }
 
     .videoWrapper {
@@ -354,10 +361,151 @@ ul li.rSide7 {
     }
 
     .buttons {
-        width: 67%;
+        width: 57%;
+        margin: 0 auto;
     }
 
     .buttons > a {
         margin: 5px;
+    }
+
+    .videoWrapper {
+        width: 100%;
+        border-bottom: 1px solid grey;
+    }
+
+    .lSideBar {
+        margin: 0;
+    }
+
+    .description {
+        width: 100%;
+        padding: 0 10px;
+    }
+    
+    .diveVideo {
+        width: 100%;
+    }
+
+    .pitcher {
+        width: 23%;
+    }
+
+    .pitcherInfo, .batterInfo {
+        float: left;
+        width: 30%;
+    }
+
+    .awayTeamScore {
+        clear: both;
+    }
+
+    .espnScoreCount {
+        clear: both;
+    }
+
+    .espnScoreCount {
+        margin: auto 36%;
+        padding: 1rem 0;
+        width: 29%;
+        clear: both;
+    }
+
+    .diamonds img {
+        margin-left: -.7rem;
+    }
+
+    .homeTeamImage {
+        display: none;
+    }
+
+    .homeTeamImageMobile {
+        display: block;
+        width: 14%;
+    }
+
+    .awayTeamImage {
+        display: none;
+    }
+
+    .awayTeamImageMobile {
+        display: block;
+        width: 14%;
+    }
+
+    img.bigC {
+        float: left;
+    }
+
+    .homeTeam {
+        padding-left: 85px;
+        float: left;
+    }
+
+    .homeTeamScore {
+        padding-left: 35px;
+    }
+
+    .awayTeamImageMobile {
+        display: block;
+    }
+
+    .awayTeamScore {
+        clear: both;
+        margin-bottom: 20px;
+        float: right;
+    }
+    
+    .awayTeam {
+        padding-left: 125px;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .lSideBar {
+        width: 100%;
+    }
+
+    .batterMain {
+        width: 100%;
+    }
+
+    .atBatWrapper {
+        width: 726px;
+    }
+
+    .videoWrapper {
+        width: 726px;
+    }
+
+    .rSideBar {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .lSideBar {
+        width: 100%;
+    }
+
+    .batterMain {
+        width: 100%;
+    }
+
+    .atBatWrapper {
+        width: 1364px;
+    }
+
+    .videoWrapper {
+        width: 1364px;
+    }
+
+    .rSideBar {
+        width: 100%;
+    }
+
+    .batterMain img {
+        margin-left: 375px;
     }
 }
