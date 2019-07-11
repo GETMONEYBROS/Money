@@ -168,9 +168,9 @@
                       <div class="twitterTitle">
                         <img src="images-osaka/indx_h03.png">
                       </div>
-                        <div>
+                        <div class="twitterWrap">
                             <a class="twitter-timeline" href="https://twitter.com/TwitterDev/timelines/539487832448843776?ref_src=twsrc%5Etfw">National Park Tweets - Curated tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                  </div>
+                          </div>
                 </div>
               </div>
             </div>
@@ -260,5 +260,40 @@
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="js/osaka.js"></script>
+
+    <!--josiah i found the fix here
+       https://stackoverflow.com/questions/38828726/twitter-embedded-timeline-background-colour 
+    
+       but just to let you know I think the issue happens based on the settings in the feed to change the them colors
+       https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-parameter-reference
+      -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>
+    var hideTwitterAttempts = 0;
+    function hideTwitterBoxElements() {
+        setTimeout( function() {
+            if ( $('[id*=twitter]').length ) {
+            $('[id*=twitter]').each( function(){
+                var ibody = $(this).contents().find( 'body' );
+                if ( ibody.find( '.timeline-Widget' ).length ) {
+                ibody.find( '.timeline-Widget' ).css( 'background-color', 'lightgrey' );
+                }
+               else {
+                    $(this).hide();
+                }
+            });
+            }
+            hideTwitterAttempts++;
+            if ( hideTwitterAttempts < 3 ) {
+                hideTwitterBoxElements();
+            }
+        }, 1500);
+    }
+    // somewhere in your code after html page load
+    hideTwitterBoxElements();
+    </script>
+
   </body>
   </html>
+

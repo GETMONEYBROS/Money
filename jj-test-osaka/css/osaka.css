@@ -172,9 +172,12 @@ ul.instaList li img {
 .socialRight {
     background-color: lightgrey;
 }
-/* Twitter Timeline */
-.timeline-Widget {
-    max-width: 75% !important;
+
+
+.twitterWrap {
+    width: 100%;
+    max-height: 719px;
+    overflow: auto;
 }
 
 .profileWrapper {
