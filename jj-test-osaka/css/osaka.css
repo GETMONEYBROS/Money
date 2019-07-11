@@ -1,0 +1,225 @@
+.wrapper {
+    overflow: hidden;
+}
+
+.bigPicture {
+    height: 894px;
+    background-image: url(../images-osaka/hero-bg-image.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    position: relative;
+}
+
+.sideNav {
+    width: 200px;
+    height: 100%;
+    text-align: left;
+    position: absolute;
+    background-color: purple;
+    opacity: .5;
+}
+
+.sideNavTable {
+    padding-top: 250px;
+    list-style: none;
+    color: gold;
+    text-transform: uppercase;
+}
+
+li {
+    padding: 7px;
+    letter-spacing: 3px;
+    font-size: 1.1em;
+}
+
+.navSocial {
+    display: inline-block;
+    margin-top: 315px;
+    margin-left: 33px;
+    width: 100%;
+}
+
+.navSocial img {
+    width: 20%;
+    padding: 5px
+}
+
+.poweredBy {
+    margin-top: 14px;
+    margin-left: 48px;
+}
+
+.poweredBy img {
+    width: 70%;
+}
+
+.rankArea {
+    position: absolute;
+    top: 10px;
+    right: 130px;
+    text-transform: uppercase;
+}
+
+.textBox p {
+        padding-bottom: 2px;
+        letter-spacing: 3px;
+}
+
+.textBox p.txt {
+    border-bottom: 1px solid;
+}
+
+.textBox p.date {
+    margin-left: 30px;
+    margin-top: -15px;
+    font-size: .85em;
+}
+
+.lang1, .lang2 {
+    width: 7%;
+    height: 7%;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 516px;
+    margin-top: -38px;
+    text-align: center;
+}
+
+.lang2 {
+    margin-top: -36px;
+    margin-left: 567px;
+}
+
+.white {
+    color: #fff;
+}
+
+.rightImages {
+    float: right;
+}
+
+.two {
+    width: 12px;
+    margin-left: 490px;
+    margin-top: 0px;
+    font-size: 2.3em;
+}
+
+.two2 {
+    display: hidden;
+}
+
+.wow {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.officialSite {
+    margin-top: 165px;
+    margin-left: 14px;
+}
+
+.wimbledon {
+    margin-top: 200px;
+}
+
+.message {
+    color: purple;
+    font-size: .78em;
+    padding: 20px 75px;
+}
+
+.signature {
+    color: black;
+    padding: 20px;
+}
+
+.signature img {
+    width: 80%;
+}
+
+.instaPics {
+    background-color: lightgrey;
+}
+
+.instaPics img {
+    width: 20%;
+}
+
+.instagramTitle {
+    padding: 20px;
+}
+
+.instagramTitle img {
+    width: 25%;
+}
+
+ul.instaList {
+    list-style: none;
+}
+
+ul.instaList li {
+    display: inline;
+}
+
+ul.instaList li img {
+    width: 22%;
+    height: auto;
+}
+
+.socialRight {
+    background-color: lightgrey;
+}
+/* Twitter Timeline */
+.timeline-Widget {
+    max-width: 75% !important;
+}
+
+.profileWrapper {
+    padding: 0;
+}
+
+.quad img {
+    width: 100%;
+}
+
+.logoRow1, .logoRow2, .logoRow3 {
+    list-style: none;
+}
+
+.footer {
+    color: #fff;
+    background-color: black;
+}
+
+@media screen and (max-width:767px) {
+    .sideNav {
+        position: fixed;
+
+    }
+
+    .sideNavTable {
+        padding-top: 50px;
+    }
+
+    .poweredBy {
+        display: none;
+    }
+
+    .navSocial {
+        margin-top: 175px;
+    }
+
+    .navSocial img {
+        width: 25%;
+        padding: 0 5px;
+    }
+
+    .rankArea {
+        position: absolute;
+        top: 65px;
+        right: -10px;
+    }
+}
