@@ -1,0 +1,62 @@
+body {
+    width: 100%;
+    height: auto;
+    background-color: navy;
+}
+
+.head {
+    background-color: red;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 18px;
+}
+
+.sideNav {
+    display: inline-block;
+    background-color: teal;
+    color: cyan;
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+    padding: 1px;
+    margin: 5px;
+}
+
+.sideNav ul {
+    text-transform: capitalize;
+}
+
+#home {
+    padding-left: 25px;
+}
+
+.main {
+    display: inline-block;
+    background-color: #000;
+    width: 77%;
+    height: 500px;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.foot {
+    background-color: grey;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+    width: 98%;
+}
+
+.head, .main, .foot {
+    color: #fff;
+}
+
+a, .start {
+    color: cyan;
+}
+
+.code {
+    color: blue;
+}
