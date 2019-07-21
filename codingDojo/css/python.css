@@ -1,0 +1,188 @@
+#wrapper {
+    width: 100%;
+    height: 1040px;
+    background-color: navy;
+}
+
+#python {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#python img {
+    width: 50%;
+}
+
+#textSize {
+    display: inline-block;
+    color: #fff;
+    margin-left: 100px;
+}
+
+#textSize a {
+    color: gold;
+}
+
+#searchWrapper {
+    display: inline-block;
+    background-color: #000;
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+#search {
+    display: inline-block;
+    background-color: #fff;
+    border: 2px solid grey;
+    width: 175px;
+    height: 35px;
+    margin: 9px 9px 9px 38px;
+}
+
+#searchP {
+    margin: 8px 0 0 60px;
+    color: grey;
+}
+
+#go {
+    display: inline-block;
+    background-color: navy;
+    border: 2px solid grey;
+    width: 35px;
+    height: 25px;
+    margin-bottom: 13px;
+    border-radius: 5px;
+    vertical-align: bottom;
+}
+
+#goP {
+    color: #fff;
+}
+
+#searchul {
+    display: inline-block;
+    margin-left: 300px;
+    list-style: none;
+}
+
+#nav {
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: lightblue;
+    margin-left: 125px;
+    text-align: center;
+    color: #fff;
+}
+
+#navul li {
+    display: inline-block;
+    list-style: none;
+    padding: 15px 40px 0 40px;
+}
+
+#nav2 {
+    display: inline-block;
+    color: #fff;
+    text-decoration: underline;
+    margin: 55px 0 0 200px;
+}
+
+#navUl2 li {
+    padding: 5px;
+    text-align: center;
+}
+
+#pythonDescription {
+    display: inline-block;
+    width: 56%;
+    height: auto;
+    margin: 50px 0 0 100px;
+    vertical-align: top;
+    color: #fff;
+    text-align: center;
+}
+
+#allFacts {
+    display: inline-block;
+    color: gold;
+    list-style: none;
+    margin-right: 35px;
+    font-size: 1.3em;
+    font-style: italic;
+    
+}
+
+#allFacts li {
+    padding: 5px;
+    text-align: center;
+}
+
+#allFacts span {
+    color: #fff;
+}
+
+#wrap {
+    display: inline-block;
+}
+
+#mid {
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+}
+
+#gettingStarted {
+    display: inline-block;
+    width: 40%;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-top: 3px solid blue;
+    text-align: center;
+}
+
+#gettingStarted ul, #applications ul {
+    text-align: center;
+}
+
+#gettingStarted li, #applications li {
+    padding: 2px;
+}
+
+#gettingStarted span, #applications span {
+    color: blue;
+}
+
+#applications {
+    display: inline-block;
+    width: 40%;
+    height: 300px;
+    margin-right: 100px;
+    margin-top: 10px;
+    border-top: 3px solid blue;
+    text-align: center;
+    float: right;
+}
+
+#searchWrapper button{
+    background-color: navy;
+    padding: 8px 10px 8px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+footer li {
+    display: inline-block;
+    color: #fff;
+    opacity: 0.5;
+    margin: 45px 0 0 175px;
+}
+
+footer p {
+    display: inline-block;
+    color: #fff;
+    opacity: 0.5;
+    margin-left: 548px;
+}

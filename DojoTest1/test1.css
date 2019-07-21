@@ -1,0 +1,300 @@
+#wrapper {
+    width: 100%;
+    height: 1200px;
+    background-color: #000;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(24, 22, 22);
+}
+
+header img {
+    width: 25%;
+    margin: 25px 0 0 25px;
+}
+
+header h2 {
+    display: inline-block;
+    margin: 50px 0 0 645px;
+    color: #fff;
+    vertical-align: top;
+    font-size: 1.3em;
+}
+
+#nav {
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(51, 46, 46);
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#nav li {
+    display: inline-block;
+    padding: 0 10px;
+    opacity: 0.5;
+}
+
+#nav span {
+    color: #000;
+}
+
+#mainImg {
+    width: 100%;
+    height: 300px;
+}
+
+#mainImg img {
+    width: 100%;
+}
+
+#ipsumWrapper {
+    width: 100%;
+    height: 200px;
+    border-top: 5px solid grey;
+    margin-top: 154px;
+    background-color: rgb(51, 46, 46);
+}
+
+#ridiculous {
+    display: inline-block;
+    width: 20%;
+    height: 90%;
+    margin: 0 10px 0 90px;
+    vertical-align: top;
+}
+
+#ridiculous img {
+    width: 25%;
+    margin: 22px 8px 0 0;
+}
+
+#ridiculous h2 {
+    display :inline-block;
+    vertical-align: top;
+    color: orange;
+    font-size: 1.4em;
+    width: 70%;
+}
+
+#ridiculous span {
+    color: #fff;
+    font-size: .8em
+}
+
+#ipsum {
+    display: inline-block;
+    width: 20%;
+    height: 90%;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+#ipsum img {
+    width: 24%;
+    margin: 22px 10px 0 0;
+}
+
+#ipsum h2 {
+    display :inline-block;
+    vertical-align: top;
+    color: orange;
+    font-size: 1.4em;
+    width: 70%;
+}
+
+#ipsum span {
+    color: #fff;
+    font-size: .8em
+}
+
+#tellus {
+    display: inline-block;
+    width: 20%;
+    height: 90%;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+#tellus img {
+    width: 23%;
+    margin: 22px 10px 0 0;
+}
+
+#tellus h2 {
+    display :inline-block;
+    vertical-align: top;
+    color: orange;
+    font-size: 1.4em;
+    width: 70%;
+}
+
+#tellus span {
+    color: #fff;
+    font-size: .8em
+}
+
+#sem {
+    display: inline-block;
+    width: 20%;
+    height: 90%;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+#sem img {
+    width: 23%;
+    margin: 22px 10px 0 0;;
+}
+
+#sem h2 {
+    display :inline-block;
+    vertical-align: top;
+    color: orange;
+    font-size: 1.4em;
+    width: 70%;
+}
+
+#sem span {
+    color: #fff;
+    font-size: .8em
+}
+
+#ridiculous, #ipsum, #tellus, #sem {
+    margin-top: 8px;
+}
+
+#buyNowWrapper {
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+}
+
+#buyNowWrapper h1, #buyNowWrapper p {
+    display: inline-block;
+    width: 57%;
+    color: #fff;
+}
+
+#buyNowWrapper h1 {
+    margin: 40px 30px 10px 30px;
+}
+
+#buyNowWrapper p {
+    margin: 0px 30px;
+}
+
+button  {
+    display: inline-block;
+    width: 11%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 275px;
+    color: #fff;
+    background-color: orange;
+    vertical-align: top;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#portfolioWrapper {
+    width: 100%;
+    height: 550px;
+    background-color: rgb(24, 22, 22);
+}
+
+#portfolioWrapper header {
+    width: 100%;
+    height: 100px;
+}
+
+#portfolioWrapper h1 {
+    display: inline-block;
+    color: #fff;
+    margin: 40px 0 0 25px;
+}
+
+#portfolioWrapper p {
+    display: inline-block;
+    color: orange;
+    margin: 35px 0 0 940px;
+    vertical-align: top;
+}
+
+#portfolioWrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+#builtIn {
+    display: inline-block;
+    width: 20%;
+    height: 200px;
+    vertical-align: top;
+    margin-left: 75px;
+}
+
+#newPage {
+    display: inline-block;
+    width: 20%;
+    height: 200px;
+    vertical-align: top;
+}
+
+#access {
+    display: inline-block;
+    width: 20%;
+    height: 200px;
+    vertical-align: top;
+}
+
+#postTypes {
+    display: inline-block;
+    width: 20%;
+    height: 200px;
+    vertical-align: top;
+}
+
+#builtIn, #newPage, #access, #postTypes {
+    border: 3px solid grey;
+    margin-right: 25px;
+}
+
+#builtInwords, #newPagewords, #accesswords, #postTypeswords {
+    display: inline-block;
+    width: 20%;
+    height: 200px;
+    margin-right: 27px;
+    vertical-align: top;
+}
+
+#builtInwords {
+    margin-left: 78px;
+}
+
+#accesswords {
+    margin-right: 30px;
+}
+
+#builtInwords h2, #newPagewords h2, #accesswords h2, #postTypeswords h2 {
+    display: inline-block;
+    color: orange;
+}
+
+#builtInwords span, #newPagewords span, #accesswords span, #postTypeswords span {
+    display: inline-block;
+    margin: 5px;
+    color: #fff;
+    font-size: .7em;
+}
+p#top {
+    display: inline;
+    margin-left: 1100px;
+    color: #fff;
+    opacity: 0.5;
+}

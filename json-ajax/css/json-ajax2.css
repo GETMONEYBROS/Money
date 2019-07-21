@@ -1,0 +1,18 @@
+h1 {
+    display: inline-block;
+}
+
+#btn {
+    display: inline-block;
+    width: 185px;
+    height: 35px;
+    border: none;
+    margin: 24px 0 0 20px;
+    background-color: cyan;
+    color: #fff;
+    vertical-align: top;
+}
+
+.hide-me {
+    visibility: hidden;
+}

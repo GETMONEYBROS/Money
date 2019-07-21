@@ -1,0 +1,262 @@
+#wrapper {
+    width: 100%;
+    height: 988px;
+    background-color: #fff;
+}
+
+#topLogo {
+    display: -webkit-box;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+
+#topLogo img {
+    width: 13%;
+    margin-top: -15px;
+}
+
+#topLogo h1 {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+    font-size: 3em;
+}
+
+#topLogo span {
+    color: blue;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background-color: lightblue;
+}
+
+header h1 {
+    display: inline-block;
+    color: #fff;
+    font-size: 2.8em;
+}
+
+#lSide {
+    display: inline-block;
+    width: 180px;
+    height: 564px;
+}
+
+#so span {
+    color: red;
+}
+
+#inter span {
+    color: blue;
+}
+
+#lSideDescription {
+    display: inline-block;
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+#video {
+    width: 90%;
+    height: 50px;
+    margin-left: 7px;
+    margin-bottom: 1px;
+    border-radius: 5px;
+    background-color: blue;
+    color: #fff;
+}
+
+#resources {
+    width: 90%;
+    height: 50px;
+    margin-left: 7px;
+    margin-top: 2px;
+    border-radius: 5px;
+    background-color: orange;
+    color: #fff;
+}
+
+#buttons {
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 20px;
+}
+
+#ninjaWrapper {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    background-image: url(../img/www/ad_background.png);
+}
+
+#ninjaWrapper h2 {
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+#ninjaWrapper img {
+    width: 48%;
+    margin-left: 46px;
+}
+
+#learn {
+    color: #fff;
+    background-color: cyan;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    margin-left: 15px;
+}
+
+#contact {
+    display: inline-block;
+    width: 85%;
+    height: 90px;
+    border-bottom: 1px solid grey;
+    vertical-align: top;
+}
+
+#contact img {
+    width: 2%;
+}
+
+#contact p {
+    display: inline-block;
+    color: blue;
+}
+
+#phone {
+    display: inline-block;
+    width: 250px;
+    height: 100%;
+    float: right;
+    font-size: .5em;
+}
+
+#phone h1, #phone p {
+    margin: 0;
+}
+
+#phoneText {
+    display: inline-block;
+    margin-left: 95px;
+    font-size: 1.5em;
+}
+
+#phone p {
+    color: grey;
+}
+
+#phone h1{
+    color: cyan;
+}
+
+#phone img {
+    width: 20%;
+    margin-left: -210px;
+}
+
+#servers {
+    display: inline-block;
+    width: 81%;
+    position: absolute;
+    top: 271px;
+    margin-left: 190px;
+}
+
+#servers h1 {
+    color: blue;
+}
+
+#servers span {
+    color: cyan;
+}
+
+span#cli, span#serv {
+    color: #000;
+    font-weight: bold;
+}
+
+#serverList {
+    width: ;
+}
+
+#serverList span {
+    color: cyan;
+}
+
+#serverImgWrapper {
+    display: inline-block;
+    position: relative;
+    bottom: 280px;
+    left: 50px;
+}
+
+#serverImgWrapper img {
+    width: 30%;
+    float: right;
+    vertical-align: top;
+    margin-right: 290px;
+}
+
+#whatHappens {
+    display: inline-block;
+    width: 81%;
+    position: relative;
+    top: -275px;
+    left: 200px;
+}
+
+#whatHappens h1 {
+    color: blue;
+}
+
+#whatHappens span {
+    color: cyan;
+}
+
+#big3 {
+    display: inline-block;
+    width: 65%;
+    height: 200px;
+    position: relative;
+    bottom: 277px;
+    left: 215px;
+    border-top: 3px solid blue;
+    border-left: 3px solid blue;
+    border-right: 3px solid blue;
+}
+
+#big3 img {
+    width: 25%;
+    margin: 15px 0 0 15px;
+}
+
+#big3 h1 {
+    color: blue;
+    position: absolute;
+    left: 235px;
+    bottom: 125px;
+}
+
+#big3 p {
+    position: relative;
+    left: 235px;
+    bottom: 153px;
+    width: 65%;
+}
+}
+
+#big3 span {
+    color: cyan;
+}
+
+span#italic {
+    font-style: italic;
+    color: #000;
+} 
