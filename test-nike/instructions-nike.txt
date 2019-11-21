@@ -1,0 +1,12 @@
+1. this page on the nav needs to have gray off and a black hover. 
+hint: look up how to gray scale hover filter.
+https://www.w3schools.com/cssref/css3_pr_filter.asp
+
+2. notice the example images on how they page should look from desktop to mobile.
+
+
+3. notice when the page scroll the page scrolls underneath the navigation.
+
+
+4. make sure that your using proper SEO HTML5 tags.
+
