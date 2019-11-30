@@ -1,2 +1,3 @@
 1. colors:  #ffffff, #ff2029, #c0151b, #ff202a
 
+2. make sure to use alt and title tags on all of your images.

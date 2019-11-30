@@ -3,3 +3,5 @@
 2. boxes should be 220x360 with 6px of spacing between each box.
 
 3. hover color over the red button should change to #bf151b with underline under the word "MORE"
+
+4. make sure to use alt and title tags on your images for SEO
