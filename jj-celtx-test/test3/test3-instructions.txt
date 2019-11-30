@@ -1,0 +1,5 @@
+1. colors: #add8e6, #ff2029, #ffffff, #bf151b
+
+2. boxes should be 220x360 with 6px of spacing between each box.
+
+3. hover color over the red button should change to #bf151b with underline under the word "MORE"

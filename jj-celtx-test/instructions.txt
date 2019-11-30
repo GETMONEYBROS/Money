@@ -1,0 +1,24 @@
+instructions:
+Note: user HTML5 tags please!!! (h1, h2, h3, etc)
+
+
+Nav font rules:
+ color: #fff;
+ font-size: 14px;
+
+green text color: color: #3c9
+
+
+----------
+Header text
+ "Your Next Great Production Starts Here"
+font-size: 36px
+
+----------
+
+sub header text
+
+
+"Join 6 million creatives using the all-in-one system for writing, planning, and collaborating on video and game productions."
+
+font-size: 20px
