@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    height: 90px;
+    background-color: #000;
+}
+
+.main {
+    height: 430px;
+    background-color: lightgrey;
+}
+
+.leftSide, .mid, .quads, h4, p {
+    display: inline-block;
+}
+
+.leftSide, .mid {
+    float: left;
+}
+
+.leftSide {
+    height: 100%;
+    width: 230px;
+}
+
+.mid {
+    height: 100%;
+    width: 820px;
+}
+
+.header {
+    height: 55px;
+    padding-top: 25px;
+}
+
+h2 {
+    color: red;
+}
+
+.quads {
+    height: 349px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 5px;
+    vertical-align: top;
+}
+
+.game {
+    height: 200px;
+}
+
+.game img {
+    width: 85%;
+    margin: 10px 0 0 10px;
+}
+
+.header, .gameName, .price {
+    text-align: center;
+}
+
+.gameName {
+    height: 60px;
+}
+
+p {
+    color: grey;
+    font-size: 10px;
+}
+
+.more {
+    height: 35px;
+    margin: 31px 5px 0 5px;
+    background-color: #ff2029;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.more:hover {
+    background-color: #bf151b;
+}
+
+.moreText {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.moreText:hover {
+    text-decoration: underline;
+}

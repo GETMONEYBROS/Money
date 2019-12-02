@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header, footer {
+    height: 50px;
+    background-color: #000;
+}
+
+.wrapper {
+    height: 607px;
+}
+
+.mid {
+    height: 507px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #33bdac;
+}
+
+.gridWrapper {
+    width: 75%;
+    height: 428px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.grid {
+    display: inline-block;
+    height: 212px;
+    width: 313px;
+    vertical-align: top;
+}
+
+.one, .three, .five {
+    background-color: #093e51;
+}
+
+.two, .four, .six {
+    background-color: #33bdac;
+}
+
+.one, .four {
+    position: relative;
+    left: 4px;
+}
+
+.three, .six {
+    position: relative;
+    right: 4px;
+}
+
+.imgWrapper {
+    width: 60px;
+    margin: 20px 0 0 120px;
+}
+
+.headline {
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+h3, p {
+    color: #fff;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+.message {
+    height: 60px;
+    text-align: center;
+}
+
+@media screen and (max-width:320px) {
+    header, footer {
+        display: none;
+    }
+
+    h2 {
+        width: 390px;
+        margin-left: 50px;
+    }
+
+    .gridWrapper {
+        width: 100%;
+        margin-left: 70px;
+    }
+}
