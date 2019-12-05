@@ -83,4 +83,6 @@ p {
 
 .more:hover {
     background-color: #bf151b;
+    text-decoration: underline;
+    cursor: pointer;
 }
