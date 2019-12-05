@@ -45,7 +45,6 @@ h2 {
     width: 200px;
     background-color: #fff;
     border-radius: 5px;
-    vertical-align: top;
 }
 
 .game {
@@ -72,22 +71,16 @@ p {
 
 .more {
     height: 35px;
+    width: 95%;
     margin: 31px 5px 0 5px;
     background-color: #ff2029;
+    border: 0;
     border-radius: 5px;
     text-align: center;
-}
-
-.more:hover {
-    background-color: #bf151b;
-}
-
-.moreText {
-    margin-top: 8px;
     color: #fff;
     font-size: 15px;
 }
 
-.moreText:hover {
-    text-decoration: underline;
+.more:hover {
+    background-color: #bf151b;
 }

@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+header {
+    margin-bottom: 15px;
+}
+
 header, footer {
     height: 50px;
     background-color: #000;
@@ -18,21 +22,25 @@ header, footer {
 }
 
 h2 {
-    margin-top: 20px;
+    margin-bottom: 27px;
     color: #33bdac;
 }
 
 .gridWrapper {
     width: 75%;
     height: 428px;
-    margin-left: 150px;
-    margin-top: 50px;
+    margin: auto;
+}
+
+.topRow, .bottomRow {
+    height: 214px;
 }
 
 .grid {
     display: inline-block;
     height: 212px;
     width: 313px;
+    padding-top: 20px;
     vertical-align: top;
 }
 
@@ -44,19 +52,9 @@ h2 {
     background-color: #33bdac;
 }
 
-.one, .four {
-    position: relative;
-    left: 4px;
-}
-
-.three, .six {
-    position: relative;
-    right: 4px;
-}
-
 .imgWrapper {
     width: 60px;
-    margin: 20px 0 0 120px;
+    margin: auto;
 }
 
 .headline {
@@ -67,10 +65,6 @@ h2 {
 
 h3, p {
     color: #fff;
-}
-
-h3 {
-    margin-top: 10px;
 }
 
 .message {
