@@ -1,0 +1,32 @@
+<style>
+    body {
+        background-color: #000;
+        color: red;
+    }
+
+    table {
+        border: 1px solid red;
+    }
+
+    th, td {
+        border: 1px solid lime;
+        text-align: center;
+    }
+</style>
+
+<a href="/songs">Dashboard</a>
+<h2>Others who added <%= @song.artist %> - <%= @song.title %></h2>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Times Added</th>
+    </tr>
+    <% @users.each do |user| %>
+        <% if Like.find_by_song_id_and_user_id(@song.id, user.id) && user.id != session[:user_id] %>
+        <tr>
+            <td><%= user.firstName %> <%= user.lastName %></td>
+            <td><%= Like.where(song: @song).where(user: user.id).count %></td>
+        </tr>
+        <% end %>
+    <% end %>
+</table>

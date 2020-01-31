@@ -1,0 +1,42 @@
+<style>
+    body {
+        background-color: #000;
+        color: red;
+    }
+
+    table {
+        border: 1px solid red;
+    }
+
+    th, td {
+        border: 1px solid lime;
+        text-align: center;
+    }
+
+    a {
+        color: red;
+        text-decoration: none;
+    }
+</style>
+
+<a href="/songs">Dashboard</a>
+<br>
+<br>
+<h3><%= @user.firstName %> <%= @user.lastName %>'s Playlist</h3>
+<br>
+<table>
+    <tr>
+        <th>Title</th>
+        <th>Artist</th>
+        <th>Times Added</th>
+    </tr>
+    <% Song.all.each do |song| %>
+        <% if Like.where(user: @user).where(song: song).count > 0 %>
+        <tr>
+            <td><%= song.title %></td>
+            <td><%= song.artist %></td>
+            <td><%= Like.where(user: @user).where(song: song).count %></td>
+        </tr>
+        <% end %>
+    <% end %>
+</table>

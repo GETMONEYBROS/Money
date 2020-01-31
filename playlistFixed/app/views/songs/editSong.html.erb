@@ -1,0 +1,20 @@
+<style>
+    body {
+        background-color: #000;
+        color: red;
+    }
+
+    a {
+        color: red;
+        text-decoration: none;
+    }
+</style>
+
+<h1>Editing <%= @display.artist %> - <%= @display.title %></h1>
+<form action='/songs/<%= @display.id %>/edit' method="post">
+    <input type="hidden" name="_method" value="patch">
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    <span>Title:</span> <input type="text" name="song[title]" value="<%= @display.title %>">
+    <span>Artist:</span> <input type="text" name="song[artist]" value="<%= @display.artist %>">
+    <input type='submit' value='Update'/>
+</form>
