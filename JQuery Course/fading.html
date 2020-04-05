@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JQuery</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>
+            $("document").ready(function(){
+                $("#fadeIn").on("click", function(){
+                    $("#textBox").fadeIn(3000, function(){
+                        alert("I'm Done Fading In");
+                    });
+                });
+
+                $("#fadeOut").on("click", function(){
+                    $("#textBox").fadeOut("fast", function(){
+                        alert("I'm Done Fading Out");
+                    });
+                });
+            });
+        </script>
+        <style>
+            body {
+                background-color: #000;
+                color: cyan;
+            }
+            
+            #textBox {
+                display: none;
+                border: 1px solid red;
+                background-color: cyan;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="#" id="fadeIn">Fade In</a>
+        |
+        <a href="#" id="fadeOut">Fade Out</a>
+        <div id="textBox">
+            <p>Bkjcebiulbfwh qbfawu iufbwaiubedf weifub abfilb awfiu bawiubfiluwab flkjbwjkfb kjwb ilub i</p>
+        </div>
+    </body>
+</html>

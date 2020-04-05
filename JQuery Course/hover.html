@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JQuery</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>
+            $("document").ready(function(){
+               $(".textCopy").hover(highlightCopy);
+               function highlightCopy(){
+                   $(this).toggleClass("highlight");
+               };
+            });
+        </script>
+        <style>
+            body {
+                background-color: #000;
+                color: cyan;
+            }
+            
+            .highlight {
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <p class="textCopy">rlbgfrbwja,igfyawkegfi7gah fwaih efiahwiufh whf wuehfiouawigf iluabwviuhriufh iuwah ifuh  fw auhfuh fiu awif </p>
+
+        <p>kjjakbrluibfiawubf uawiufbg aiu fiuwgeaiegf ia gwhiufiuagwfg  fawiu hfiuiuawhioh fiuafawu fhi hawlih fli f iawuh fil hio hawh f f ahfi ha</p>
+    </body>
+</html>

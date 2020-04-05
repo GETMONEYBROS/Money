@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JQuery</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>
+            $("document").ready(function(){
+                $("#slideUp").click(function(){
+                    $("#textBox").slideUp("2000", "linear");
+                });
+
+                $("#slideDown").click(function(){
+                    $("#textBox").slideDown("fast", "linear");
+                });
+
+                $("#toggle").click(function(){
+                    $("#textBox").slideToggle("2000", function(){
+                        alert("Done");
+                    });
+                });
+            });
+        </script>
+        <style>
+          body {
+                background-color: #000;
+                color: cyan;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="#" id="slideUp">Slide Up</a> | <a href="#" id="slideDown">Slide Down</a> | <a href="#" id="toggle">Toggle</a>
+        <div id="textBox">
+            <p>Bkjcebiulbfwh qbfawu iufbwaiubedf weifub abfilb awfiu bawiubfiluwab flkjbwjkfb kjwb ilub i</p>
+        </div>
+    </body>
+</html>

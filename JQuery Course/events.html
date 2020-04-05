@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JQuery</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>
+            $("document").ready(function(){
+                $("#textBox").on("click", whenMouseIsClicked);
+                $("#textBox").on("mouseleave", whenMouseLeaves);
+
+                function whenMouseIsClicked(){
+                    $("#textBox").html("<h4>You Clicked Me</h4>");
+                };
+
+                function whenMouseLeaves(){
+                    $("#textBox").html("<h4>Where ya goin?</h4>")
+                };
+                
+            });
+        </script>
+        <style>
+            body {
+                background-color: #000;
+                color: cyan;
+            }
+            
+            #textBox {
+                width: 150px;
+                height: 150px;
+                border: 1px solid red;
+                background-color: cyan;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="textBox">
+            
+        </div>
+    </body>
+</html>

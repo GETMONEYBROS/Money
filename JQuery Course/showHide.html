@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JQuery</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>
+            $("document").ready(function(){
+                $("#show").on("click", function(){
+                    $("#textBox").show();
+                });
+
+                $("#hide").on("click", function(){
+                    $("#textBox").hide();
+                });
+            });
+        </script>
+        <style>
+            body {
+                background-color: #000;
+                color: cyan;
+            }
+            
+            #textBox {
+                display: none;
+                width: 150px;
+                height: 150px;
+                border: 1px solid red;
+                background-color: cyan;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="#" id="show">Click to show</a>
+        <a href="#" id="hide">Click to hide</a>
+        <div id="textBox">
+            
+        </div>
+    </body>
+</html>
